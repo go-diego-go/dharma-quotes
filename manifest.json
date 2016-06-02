@@ -1,0 +1,10 @@
+{
+  "name": "Dharma Quotes",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Dharma Quotes",
+  "author": "Diego Gonzalez",
+  "chrome_url_overrides": {
+    "newtab": "src/index.html"
+  }
+}
