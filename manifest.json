@@ -1,6 +1,6 @@
 {
   "name": "Dharma Quotes",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "manifest_version": 2,
   "description": "Read a Dharma quote every time you open a new tab.",
   "author": "Diego Gonzalez",
