@@ -159,7 +159,18 @@ function fetchQuote() {
 		{quote: 'Again and again, counteract the agitation and turbulence of the mind by relaxing more deeply, not by contracting the body or mind.', author: 'B. Alan Wallace'},
 		{quote: 'I suggest that if you were able to focus your attention at will, you could actually choose the universe you appear to inhabit.', author: 'B. Alan Wallace'},
 		{quote: 'Life is a flash of lightning in the dark of night. It is a brief time of tremendous potential.', author: 'B. Alan Wallace'},
-		{quote: 'One of the most persistent of all delusions is the conviction that the source of our dissatisfaction lies outside ourselves.', author: 'B. Alan Wallace'}
+		{quote: 'One of the most persistent of all delusions is the conviction that the source of our dissatisfaction lies outside ourselves.', author: 'B. Alan Wallace'},
+		{quote: 'Do not look for faults in others, but look for faults in yourself, and purge them like bad blood.<br />Do not contemplate your own good qualities, but contemplate the good qualities of others, and respect everyone as a servant would.', author: 'Atisha'},
+		{quote: 'The greatest achievement is selflessness.<br />The greatest worth is self-mastery.<br />The greatest quality is seeking to serve others.<br />The greatest precept is continual awareness.<br />The greatest medicine is the emptiness of everything.<br />The greatest action is not conforming with the worlds ways.<br />The greatest magic is transmuting the passions.<br />The greatest generosity is non-attachment.<br />The greatest goodness is a peaceful mind.<br />The greatest patience is humility.<br />The greatest effort is not concerned with results.<br />The greatest meditation is a mind that lets go.<br />The greatest wisdom is seeing through appearances.', author: 'Atisha'},
+		{quote: 'The best spiritual friend is one who attacks yours hidden faults.<br />The best instructions are the ones that hit those faults.<br />The best friends are mindfulness and vigilance.<br />The best incentives are enemies, obstacles, and sufferings of illness.<br />The best method is not to fabricate anything.', author: 'Atisha'},
+		{quote: 'The qualities of Buddhahood are gained<br />Through living beings and Victorious Ones alike,<br />Why then do we respect the Victorious Ones<br />And not living beings in the same way?', author: 'Atisha'},
+  		{quote: 'Even if you can recite the whole Tripitaka by heart, even if you know the entire Dharma, if you don’t have the guru’s advice, there will be a gap between you and the Dharma when you practice.', author: 'Atisha'},
+  		{quote: 'One should live with few possessions<br />And dwell with one’s back turned<br />To the things that cause grasping.<br />Be as a wanderer in foreign lands<br />Taking food as it is found<br />Like the birds in migration.', author: 'Atisha'},
+		{quote: 'Among others, keep a check on your speech; When alone, keep a check on your mind.', author: 'Atisha'},
+  		{quote: 'The greatest medicine is the emptiness of everything.', author: 'Atisha'},
+		{quote: 'Those with little merit will not<br />Even wonder about these things.<br />But merely to entertain doubts<br />About saṃsāra will make it fall apart.', author: 'Aryadeva'},
+		{quote: 'At first, turn away from non-virtue,<br />In the middle, dispel misconceptions of self,<br />Finally, go beyond all philosophical views—<br />One who understands this is wise indeed.', author: 'Aryadeva'},
+		{quote: 'Whoever sees the nature of one thing<br />Is said to see the nature of everything.<br />For the emptiness of one thing<br />Is the emptiness of everything.', author: 'Aryadeva'}
 	];
 
 	return quotes[Math.floor(Math.random() * quotes.length)];

@@ -1,4 +1,4 @@
-h1, h2 {
+.text {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   color: #E8D8D8;
@@ -6,8 +6,16 @@ h1, h2 {
   padding-right: 15px;
 }
 
+#quote {
+  font-size: 30px;
+}
+
+#author {
+  font-size: 20px;
+}
+
 .container {
-  padding-top: 150px;
+  padding-top: 130px;
 }
 
 body {
