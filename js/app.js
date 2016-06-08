@@ -170,7 +170,7 @@ function fetchQuote() {
         {quote: 'The greatest medicine is the emptiness of everything.', author: 'Atisha'},
         {quote: 'Those with little merit will not<br />Even wonder about these things.<br />But merely to entertain doubts<br />About saṃsāra will make it fall apart.', author: 'Aryadeva'},
         {quote: 'At first, turn away from non-virtue,<br />In the middle, dispel misconceptions of self,<br />Finally, go beyond all philosophical views—<br />One who understands this is wise indeed.', author: 'Aryadeva'},
-        {quote: 'Whoever sees the nature of one thing<br />Is said to see the nature of everything.<br />For the emptiness of one thing<br />Is the emptiness of everything.', author: 'Aryadeva'}
+        {quote: 'Whoever sees the nature of one thing<br />Is said to see the nature of everything.<br />For the emptiness of one thing<br />Is the emptiness of everything.', author: 'Aryadeva'},
         {quote: 'Have you ever, on earth or in the heavens,<br />Seen a being who was born but will not die?<br />Have you ever heard that this had happened?<br />Or even had suspicions that it might?', author: 'Aśvaghoṣa'},
         {quote: 'Great rishis with the five superknowledges,<br />Can fly far and wide through the sky,<br />Yet they will never reach a place<br />Where they might live and never die.', author: 'Aśvaghoṣa'},
         {quote: 'Trying to reach the great mansion<br />Of the authentic nature of reality<br />Without the steps of the authentic relative<br />Is not an approach the wise should take.', author: 'Bhavaviveka'},
@@ -187,7 +187,7 @@ function fetchQuote() {
         {quote: 'Like a star, hallucination, candle,<br />Magical illusion, dewdrop, bubble,<br />Dream, lightning or a cloud—<br />Know all compounded phenomena to be like this.', author: 'Buddha'},
         {quote: 'The mind is devoid of mind,<br />For the nature of mind is clear light.', author: 'Buddha'},
         {quote: 'Noble one, think of yourself as someone who is sick,<br />Of the Dharma as the remedy,<br />Of your spiritual teacher as a skilful doctor,<br />And of diligent practice as the way to recovery.', author: 'Buddha'},
-        {quote: 'Form is emptiness; emptiness also is form.<br />Emptiness is no other than form,<br />Form is no other than emptiness.' author: 'Buddha'},
+        {quote: 'Form is emptiness; emptiness also is form.<br />Emptiness is no other than form,<br />Form is no other than emptiness.', author: 'Buddha'},
         {quote: 'Commit not a single unwholesome action,<br />Cultivate a wealth of virtue,<br />Tame completely this mind of ours—<br />This is the teaching of the buddhas.', author: 'Buddha'},
         {quote: 'When his time has come, even a king has to die,<br />And neither his friends nor his wealth can follow him.<br />So for us—wherever we stay, wherever we go—<br />Karma follows us like a shadow.', author: 'Buddha'},
         {quote: 'Do not disregard small misdeeds,<br />Thinking they are harmless,<br />Because even tiny sparks of flame,<br />Can set fire to a mountain of hay.', author: 'Buddha'},
