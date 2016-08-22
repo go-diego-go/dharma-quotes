@@ -6,7 +6,7 @@ window.onload = function start() {
 
 function getTextSize(quote) {
     var lines = 0;
-    quote.replace('<br/>', function() { lines++; });
+    quote.replace(/<br\/>/gi, function() { lines++; });
     if (lines > 4 || quote.length > 600) {
       return 2.5;
     } else if (quote.length > 500) {
