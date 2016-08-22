@@ -2,21 +2,17 @@
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   color: #E8D8D8;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
 }
 
-#quote {
-  font-size: 30px;
-}
-
-#author {
-  font-size: 20px;
-  padding-top: 10px;
+.author {
+  font-size: 1.8vw;
+  padding-top: 1vh;
 }
 
 .container {
-  padding-top: 20vh;
+  padding-top: 6vh;
 }
 
 body {
