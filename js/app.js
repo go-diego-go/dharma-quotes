@@ -1,7 +1,19 @@
-window.onload = function start() {
-    var quote = fetchQuote();
+window.addEventListener('load', function() {
+    fetchQuote();
     document.getElementsByClassName('quote')[0].innerHTML = quote.quote;
     document.getElementsByClassName('author')[0].innerHTML = "- " + quote.author;
+});
+
+window.addEventListener('resize', function() {
+    paintQuote();
+});
+
+var quote;
+
+function paintQuote() {
+    var fontSize = (4.3 - getTextSize(quote.quote))+ 'vw';
+    document.getElementsByClassName('quote')[0].style.fontSize = fontSize;
+    document.getElementsByClassName('author')[0].style.fontSize = fontSize;
 }
 
 function getTextSize(quote) {
@@ -383,8 +395,6 @@ function fetchQuote() {
 
     ];
 
-    var quote = quotes[Math.floor(Math.random() * quotes.length)];
-    document.getElementsByClassName('quote')[0].style.fontSize = (4.3 - getTextSize(quote.quote))+ 'vw';
-
-    return quote;
+    quote = quotes[Math.floor(Math.random() * quotes.length)];
+    paintQuote();
 }
