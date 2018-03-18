@@ -1,0 +1,5 @@
+*.sh
+*.zip
+dist
+node_modules
+js/bundle.js
