@@ -1570,6 +1570,7 @@ var quotes = [
     {q: 'Those with faith will go for refuge;<br/>Those who have compassion will have bodhichitta;<br/>Those with wisdom will gain realization;<br/>Those who have devotion harvest blessings.', a: 'Dudjom Rinpoche'},
     {q: 'Peaceful self-control: the sign of one who’s heard the teachings!<br/>Few defiled emotions are the mark of one who meditates.<br/>Harmony with others is the sign of one who practices.<br/>A blissful heart is witness to accomplishment.<br/>The root of Dharma is your very mind.<br/>Tame it and you’re practicing the Dharma.<br/>To practice Dharma is to tame your mind<br/>And when you tame it, then you will be free!', a: 'Dudjom Rinpoche'},
     {q: 'Cultivate faith and devotion to the Three Jewels and to your teacher. Strive in the ten virtues and combine clear intelligence with extensive learning. Nurture a sense of personal integrity and propriety regarding others. With these seven sublime riches, you will always be happy!', a: 'Dudjom Rinpoche'},
+    {q: 'To meditate, only means to keep presence both of the state of calm and that of movement; there is nothing on which to meditate … The truth here is that the calm state is the essence of mind, and the movement is its energy: they are two inseparable aspects of the same reality, like a river and its waves or the sun and its rays.', a: 'Namkhai Norbu Rinpoche'},
 ];
 
 module.exports = quotes;
