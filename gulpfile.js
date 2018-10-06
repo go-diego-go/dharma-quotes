@@ -10,11 +10,12 @@ var shell = require('gulp-shell');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
+var babelify = require('babelify');
 
 // Lint Task
 gulp.task('lint', function() {
-    return gulp.src('js/*.js')
-        .pipe(jshint())
+    return gulp.src(['js/*.js', '!js/bundle.js', '!js/textFit.min.js'])
+        .pipe(jshint({esversion: 6}))
         .pipe(jshint.reporter('default'));
 });
 
@@ -26,6 +27,7 @@ gulp.task('package', function() {
                      'icons/**',
                      'images/**',
                      'css/styles.css',
+                     'js/textFit.min.js',
                      'js/bundle.js'
                     ], {base: '.'})
         .pipe(zip('dharma-quotes.zip'))
@@ -48,7 +50,8 @@ gulp.task('bundle', function() {
   var b = browserify({
     entries: 'js/app.js',
     debug: true
-  });
+  })
+  .transform(babelify.configure({presets: ["es2015"]}));
 
   return b.bundle()
     .pipe(source('bundle.js'))
